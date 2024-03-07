@@ -1,6 +1,6 @@
 package animales;
 
-public class Animal {
+public abstract class Animal {
 
 	private String nombre;
 	private int peso;
@@ -25,10 +25,7 @@ public class Animal {
 		return peso;
 	}
 	public void setPeso(int peso) {
-		if(peso>0) { 
-			this.peso = peso;
-		}
-		else this.peso = 1;
+		this.peso = peso;
 	}
 
 

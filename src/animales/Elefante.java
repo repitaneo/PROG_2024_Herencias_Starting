@@ -2,8 +2,6 @@ package animales;
 
 public class Elefante extends Animal {
 
-	//private String nombre;
-	//private int peso;
 	private int edad;
 
 	
@@ -11,9 +9,6 @@ public class Elefante extends Animal {
 		
 		super(nombre,peso);
 		setEdad(edad);
-		
-		//this.nombre = nombre;
-		//setPeso(peso);
 	}
 
 	
