@@ -12,6 +12,10 @@ public abstract class Animal {
 		setPeso(peso);
 	}
 	
+	public abstract int esperanzaDeVida();
+
+	
+	
 	
 	
 	

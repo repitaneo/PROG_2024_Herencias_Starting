@@ -30,6 +30,12 @@ public class Humano extends Animal {
 		return "Humano [" + gafas + " - " + getNombre() 
 			+ " (" + getPeso() + "kg)]";
 	}
+
+
+	@Override
+	public int esperanzaDeVida() {
+		return 80;
+	}
 	
 	
 	

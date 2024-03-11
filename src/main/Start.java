@@ -19,6 +19,7 @@ public class Start {
 		for(int i=0;i<3;i++) {
 			
 			System.out.println(animales[i]);
+			System.out.println("la EDV es "+animales[i].esperanzaDeVida());
 		}
 		
 		

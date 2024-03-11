@@ -33,6 +33,13 @@ public class Murcielago extends Animal {
 		return "Murcielago [(" + embergadura + "m) - " + getNombre() 
 				+ " - (" + getPeso() + "kg)]";
 	}
+
+
+	@Override
+	public int esperanzaDeVida() {
+		
+		return 20;
+	}
 	
 	
 	

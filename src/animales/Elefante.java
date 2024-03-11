@@ -38,6 +38,13 @@ public class Elefante extends Animal {
 	public String toString() {
 		return "Elefante [" + getNombre() + " (" + edad + ") (" + getPeso() + "kg)]";
 	}
+
+
+
+	@Override
+	public int esperanzaDeVida()  {
+		return 100;
+	}
 	
 	
 	
