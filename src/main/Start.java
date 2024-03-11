@@ -1,6 +1,7 @@
 package main;
 
 import animales.*;
+import ia.Robot;
 
 
 public class Start {
@@ -11,6 +12,10 @@ public class Start {
 		Murcielago batman = new Murcielago("Batman",80,1);
 		Humano marcos = new Humano("Marcos",71,true);
 
+		Robot robot = new Robot("Bender","Castrol",2000);
+		
+		
+		
 		Animal animales[] = new Animal[3];
 		animales[0] = batman;
 		animales[1] = dumbo;
