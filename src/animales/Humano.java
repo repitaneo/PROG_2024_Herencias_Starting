@@ -36,6 +36,19 @@ public class Humano extends Animal {
 	public int esperanzaDeVida() {
 		return 80;
 	}
+
+
+	@Override
+	public float horasSuenio(int mes) {
+		
+		if(this.getPeso()<10) {
+			return 15;
+		}
+		else if(getPeso()<25) {
+			return 10;
+		}
+		else return 7;
+	}
 	
 	
 	

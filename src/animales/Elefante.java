@@ -45,6 +45,20 @@ public class Elefante extends Animal {
 	public int esperanzaDeVida()  {
 		return 100;
 	}
+
+
+
+	@Override
+	public float horasSuenio(int mes) {
+		
+		switch(mes) {
+		
+			case 12, 1, 2: 	return 14.8f;
+			case 3,4,5: 	return 9.16f;
+			case 6,7,8: 	return 8.06f;
+			default: 		return 5.97f;
+		}
+	}
 	
 	
 	

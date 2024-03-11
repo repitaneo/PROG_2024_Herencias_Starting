@@ -13,6 +13,7 @@ public abstract class Animal {
 	}
 	
 	public abstract int esperanzaDeVida();
+	public abstract float horasSuenio(int mes);
 
 	
 	

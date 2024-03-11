@@ -20,6 +20,10 @@ public class Start {
 			
 			System.out.println(animales[i]);
 			System.out.println("la EDV es "+animales[i].esperanzaDeVida());
+			for(int j=1;j<=12;j++) {
+				
+				System.out.println("HDS ["+j+"] "+animales[i].horasSuenio(j));
+			}
 		}
 		
 		
