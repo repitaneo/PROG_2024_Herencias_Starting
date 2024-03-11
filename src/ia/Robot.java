@@ -48,20 +48,14 @@ public class Robot implements Peleador {
 	public int ataque() {
 		return 100;
 	}
-
-
 	@Override
 	public int defensa() {
 		return 10000;
 	}
-
-
 	@Override
 	public int puntosVida() {
 		return 10000;
 	}
-
-
 	@Override
 	public void danio(int pupa) {
 	}

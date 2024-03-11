@@ -2,6 +2,7 @@ package main;
 
 import animales.*;
 import ia.Robot;
+import luchadores.Gimnasio;
 
 
 public class Start {
@@ -13,6 +14,10 @@ public class Start {
 		Humano marcos = new Humano("Marcos",71,true);
 
 		Robot robot = new Robot("Bender","Castrol",2000);
+		
+		
+		Gimnasio arenas = new Gimnasio("Arenas",10);
+		arenas.lucha(dumbo, robot);
 		
 		
 		
