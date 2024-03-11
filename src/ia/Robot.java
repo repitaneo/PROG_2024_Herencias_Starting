@@ -1,9 +1,11 @@
 package ia;
 
 import animales.Animal;
+import luchadores.Peleador;
 
-public class Robot {
+public class Robot implements Peleador {
 
+	
 	private String nombre;
 	private String marcaAceite;
 	private int vatios;
@@ -39,6 +41,29 @@ public class Robot {
 	@Override
 	public String toString() {
 		return "Robot [" + nombre + " - " + marcaAceite + " - " + vatios + "]";
+	}
+
+
+	@Override
+	public int ataque() {
+		return 100;
+	}
+
+
+	@Override
+	public int defensa() {
+		return 10000;
+	}
+
+
+	@Override
+	public int puntosVida() {
+		return 10000;
+	}
+
+
+	@Override
+	public void danio(int pupa) {
 	}
 	
 	
